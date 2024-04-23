@@ -32,7 +32,7 @@ public class AESExample {
     public static void main(String[] args) {
         try {
             String originalText = "Hello, World!";
-            String secretKey = "SECURE_CODE{don't_save_Key}";
+            String secretKey = "REMOVED";
 
             String encryptedText = encrypt(originalText, secretKey);
             System.out.println("Encrypted text: " + encryptedText);
